@@ -14,28 +14,25 @@ O **Power Up** é um projeto em Python desenvolvido para automatizar tarefas rep
 
 ## Tecnologias Utilizadas
 
-- **Python** – Linguagem principal do projeto.
-- **Pandas** – Para manipulação e leitura da base de dados.
-- **SQLite / CSV** – Exemplos de formatos de base de dados utilizados.
+- **Python 3.x**
+- **PyAutoGUI:** Automação de interface gráfica.
+- **Pandas:** Manipulação e análise de dados.
+- **CSV:** Formato de arquivo para armazenar dados.
 
 ---
 
-## Como Funciona
+## Estrutura do Repositório
 
-1. O usuário fornece uma base de dados com informações dos produtos.
-2. O script em Python lê os dados e processa as informações.
-3. Os produtos são cadastrados automaticamente conforme o exemplo no código.
+- `produtos.csv`: Base de dados com informações sobre os produtos.
+- `pegar_posicao.py`: Script para capturar a posição do mouse.
+- `gabarito.py`: Script principal que realiza a automação.
+- `README.md`: Este arquivo com informações sobre o projeto.
 
 ---
 
-## Exemplo de Código
+## Como Usar
 
-```python
-import pandas as pd
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/gui-fofinho/PYTHON-POWER-UP-AUTOMACAO-DE-TAREFAS.git
 
-# Leitura da base de dados
-produtos = pd.read_csv("produtos.csv")
-
-# Cadastro automático
-for index, produto in produtos.iterrows():
-    print(f"Cadastrando produto: {produto['nome']} - R${produto['preco']}")
