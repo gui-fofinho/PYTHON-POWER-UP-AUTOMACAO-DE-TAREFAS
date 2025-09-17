@@ -40,7 +40,7 @@ tabela = pd.read_csv("produtos.csv")
 
 print(tabela)
 
-# Passo 4: Cadastrar um produto
+# Passo 4: Cadastrar um produto e # Passo 5: Repetir o processo de cadastro até o fim
 for linha in tabela.index:
     # clicar no campo de código
     pyautogui.click(x=653, y=294)
@@ -68,4 +68,4 @@ for linha in tabela.index:
     pyautogui.press("enter") # cadastra o produto (botao enviar)
     # dar scroll de tudo pra cima
     pyautogui.scroll(5000)
-    # Passo 5: Repetir o processo de cadastro até o fim
+
