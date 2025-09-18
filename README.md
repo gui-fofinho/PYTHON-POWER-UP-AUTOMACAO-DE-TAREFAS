@@ -36,3 +36,6 @@ O **Power Up** é um projeto em Python desenvolvido para automatizar tarefas rep
    ```bash
    git clone https://github.com/gui-fofinho/PYTHON-POWER-UP-AUTOMACAO-DE-TAREFAS.git
 
+
+Projeto desenvolvido no curso Hashtag Treinamentos.
+
