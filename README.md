@@ -56,7 +56,7 @@ Não utilize o computador durante a execução
 
 As coordenadas da tela podem variar de acordo com a resolução
 
-📚 Observações
+## 📚 Observações
 Projeto com fins educacionais
 
 Ideal para demonstrar:
