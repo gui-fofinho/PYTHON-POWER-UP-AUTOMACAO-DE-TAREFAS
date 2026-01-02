@@ -16,12 +16,11 @@ A automação lê uma base de dados em CSV e preenche automaticamente os campos 
 
 ---
 
-## 🧠 Tecnologias utilizadas
 
-- **Python**
-- **PyAutoGUI**
-- **Pandas**
-
+## 🛠️ Tecnologias
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web-ff0000?style=flat-square&logo=streamlit)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-GPT-412991?style=flat-square&logo=openai)
 ---
 
 ## 📦 Estrutura do projeto
