@@ -57,6 +57,8 @@ Não utilize o computador durante a execução
 
 As coordenadas da tela podem variar de acordo com a resolução
 
+---
+
 ## 📚 Observações
 Projeto com fins educacionais
 
@@ -69,6 +71,8 @@ Ideal para demonstrar:
    uso de bibliotecas externas;
 
 Pode ser adaptado para outros sistemas e formulários
+
+---
 
 ## 👨‍💻 Autor
 
