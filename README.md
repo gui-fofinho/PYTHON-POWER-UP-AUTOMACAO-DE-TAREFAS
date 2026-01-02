@@ -1,41 +1,75 @@
-# Power Up - Automação de Tarefas com Python
+# 🤖 Automação de Cadastro de Produtos com Python
 
-O **Power Up** é um projeto em Python desenvolvido para automatizar tarefas repetitivas, tornando processos mais rápidos e eficientes. Ele simula a leitura de uma base de dados e o cadastro automático de produtos.
+Este projeto realiza a **automação do cadastro de produtos** em um sistema web utilizando **Python**, **PyAutoGUI** e **Pandas**.
 
----
-
-## Funcionalidades
-
-- **Leitura de Base de Dados:** O sistema lê informações de uma base de dados (CSV, Excel ou SQLite) para identificar produtos e dados necessários.
-- **Cadastro Automático de Produtos:** Com base nos dados lidos, o programa cadastra produtos automaticamente.
-- **Automação de Processos Repetitivos:** Qualquer tarefa repetitiva pode ser adaptada e automatizada pelo código.
+A automação lê uma base de dados em CSV e preenche automaticamente os campos do sistema, simulando interações humanas com teclado e mouse.
 
 ---
 
-## Tecnologias Utilizadas
+## 🚀 Funcionalidades
 
-- **Python 3.x**
-- **PyAutoGUI:** Automação de interface gráfica.
-- **Pandas:** Manipulação e análise de dados.
-- **CSV:** Formato de arquivo para armazenar dados.
-
----
-
-## Estrutura do Repositório
-
-- `produtos.csv`: Base de dados com informações sobre os produtos.
-- `pegar_posicao.py`: Script para capturar a posição do mouse.
-- `gabarito.py`: Script principal que realiza a automação.
-- `README.md`: Este arquivo com informações sobre o projeto.
+- Abertura automática do navegador
+- Login automático no sistema
+- Leitura de produtos a partir de um arquivo CSV
+- Cadastro automático de múltiplos produtos
+- Automação completa de tarefas repetitivas
 
 ---
 
-## Como Usar
+## 🧠 Tecnologias utilizadas
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/gui-fofinho/PYTHON-POWER-UP-AUTOMACAO-DE-TAREFAS.git
+- **Python**
+- **PyAutoGUI**
+- **Pandas**
 
+---
 
-Projeto desenvolvido no curso Hashtag Treinamentos.
+## 📦 Estrutura do projeto
 
+```text
+📦 automacao-cadastro-produtos
+ ┣ 📂 data
+ ┃ ┗ 📄 produtos.csv
+ ┣ 📂 utils
+ ┃ ┗ 📄 pegar_posicao.py
+ ┣ 📄 automacao_cadastro.py
+ ┣ 📄 requirements.txt
+ ┣ 📄 README.md
+▶️ Como executar o projeto
+1️⃣ Instalar as dependências
+pip install -r requirements.txt
+
+2️⃣ Configurar login
+
+No arquivo automacao_cadastro.py, altere:
+
+EMAIL = "SEU_EMAIL_AQUI"
+SENHA = "SUA_SENHA_AQUI"
+
+3️⃣ Executar a automação
+
+python automacao_cadastro.py
+
+⚠️ Importante:
+
+Não utilize o computador durante a execução
+
+As coordenadas da tela podem variar de acordo com a resolução
+
+📚 Observações
+Projeto com fins educacionais
+
+Ideal para demonstrar:
+
+   automação de processos;
+   
+   manipulação de arquivos CSV;
+   
+   uso de bibliotecas externas;
+
+Pode ser adaptado para outros sistemas e formulários
+
+## 👨‍💻 Autor
+
+Projeto desenvolvido por **Guilherme Matté**,  
+como parte dos estudos no curso da **Hashtag Treinamentos**, com foco em automação de processos utilizando Python.
