@@ -68,11 +68,11 @@ Projeto com fins educacionais
 
 Ideal para demonstrar:
 
-   automação de processos;
+   -automação de processos;
    
-   manipulação de arquivos CSV;
+   -manipulação de arquivos CSV;
    
-   uso de bibliotecas externas;
+   -uso de bibliotecas externas;
 
 Pode ser adaptado para outros sistemas e formulários
 
