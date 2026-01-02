@@ -36,6 +36,7 @@ A automação lê uma base de dados em CSV e preenche automaticamente os campos 
  ┣ 📄 requirements.txt
  ┣ 📄 README.md
 ▶️ Como executar o projeto
+
 1️⃣ Instalar as dependências
 pip install -r requirements.txt
 
