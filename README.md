@@ -28,13 +28,13 @@ A automação lê uma base de dados em CSV e preenche automaticamente os campos 
 
 ```text
 📦 automacao-cadastro-produtos
- ┣ 📂 data
- ┃ ┗ 📄 produtos.csv
- ┣ 📂 utils
- ┃ ┗ 📄 pegar_posicao.py
- ┣ 📄 automacao_cadastro.py
+ 
+ ┃ 📄 produtos.csv - (arquivo contendo a base de dados de produtos)
+ ┃ 📄 pegar_posicao.py - (script auxiliar para determinar posições utilizadas pelo programa principal)
+ ┣ 📄 automacao_cadastro.py - (arquivo principal)
  ┣ 📄 requirements.txt
  ┣ 📄 README.md
+ 
 ▶️ Como executar o projeto
 
 1️⃣ Instalar as dependências
