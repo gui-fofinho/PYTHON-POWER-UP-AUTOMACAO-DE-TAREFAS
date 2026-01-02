@@ -34,22 +34,27 @@ A automação lê uma base de dados em CSV e preenche automaticamente os campos 
  ┣ 📄 automacao_cadastro.py - (arquivo principal)
  ┣ 📄 requirements.txt
  ┣ 📄 README.md
+ ```
  
 ▶️ Como executar o projeto
 
 1️⃣ Instalar as dependências
+```bash
 pip install -r requirements.txt
+```
 
 2️⃣ Configurar login
 
 No arquivo automacao_cadastro.py, altere:
-
+```bash
 EMAIL = "SEU_EMAIL_AQUI"
 SENHA = "SUA_SENHA_AQUI"
+```
 
 3️⃣ Executar a automação
-
+```bash
 python automacao_cadastro.py
+```
 
 ⚠️ Importante:
 
